@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>interactive-card-details-form</title>
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+  <div class="main-container">
+    <header>
+      <div class="image-container">
+        <img src="./images/bg-card-back.png" alt="" id="image1">
+        <p>000</p>
+      </div>
+      <div class="image-con2">
+        <img src="./images/bg-card-front.png" alt="" id="image2">
+        <div class="details">
+          <div class="little-img-con">
+            <img src="./images/circleee-update.png" alt="">
+          </div>
+          <div class="numbers">
+            <ul class="numbers-ul">
+              <li>0000</li>
+              <li>0000</li>
+              <li>0000</li>
+              <li>0000</li>
+            </ul>
+          </div>
+          <div class="name-date-con">
+            <p>JANE APPLESEED</p>
+            <p>00/00</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <form>
+        <div>
+          <label>cardholder name</label>
+          <input type="text" placeholder="e.g. Jane Appleseed" class="card">
+        </div>
+        <div>
+          <label>card number</label>
+          <input type="text" placeholder="e.g. 12345678 9123 0000" class="card">
+        </div>
+
+        <div class="third-div">
+          <label for=" " class="exp">exp. date (mm/yy) cvc</label>
+          <input type="text" placeholder="MM" class="mini-input">
+          <input type="text" placeholder="YY" class="mini-input">
+          <input type="text" placeholder="e.g. 123" class="mini-input" id="mini-input">
+        </div>
+
+        <div class="button">
+          <button type="submit">Confirm</button>
+        </div>
+        
+        </form>
+        
+    </main>
+  </div>
+</body>
+</html>
